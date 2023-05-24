@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./contact.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("GdOVDS0xw8ke9w8SH");
+        })();
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="logo_wrapper">
+            <img class="logo" src="./autochase_logo.png" alt="">
+        </div>
+        <div class="first">
+            <h1>Sell cars online with <span class="autochase">AUTOCHASE</span> for FREE</h1>
+            <h4>Selling cars online just got a whole lot simpler. <br> Sign up below to be notified when AutoChase Launches.</h4>
+        </div>
+        <section class="form_wrapper">
+            <form onsubmit="contact(event)">
+              <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+              <input onclick="showText()" type="submit" value="Register">
+            </form>
+          </section>
+          <section class="second">
+            <h3 class="second_header">Say goodbye to costly car advertisements. <br> You can list and sell your car completely FREE with AutoChase!</h3>
+            <img class="element" src="./autochase_online car sale.png" alt="">
+          </section>          
+        <div class="scroll">
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+    </section>
+    <section class="why_us">
+        <h3>Why AutoChase?</h3>
+        <div class="benefits_wrapper">
+            <div class="benefit">
+                <i class="fa-solid fa-star"></i>
+                <h4>No fees</h4>
+                <p class="benefit_para">By offering free car listings, <br> we eliminate any upfront costs <br> or listing fees that you might <br> encounter on other platforms.</p>
+            </div>
+            <div class="benefit">
+                <i class="fa-solid fa-star"></i>
+                <h4>Broad audience reach</h4>
+                <p class="benefit_para">Our website attracts a wide range <br> of potential buyers  actively seeking to <br> purchase a car. By listing your car for free <br> on our platform, you gain access to this diverse audience.</p>
+            </div>
+            <div class="benefit">
+                <i class="fa-solid fa-star"></i>
+                <h4>Auction Sale</h4>
+                <p class="benefit_para">You can list your car on the Auction <br> section and watch people bid on your <br> car and get a better price for your car.</p>
+            </div>
+        </div>
+    </section>
+    <section class="register_in">
+        <h4 class="reg_in_header">Register Your Interest Today</h4>
+        <button class="sign_up_btn"><a class="btn_anchor" href="#">Sign me up!</a></button>
+    </section>
+    <footer>
+        <hr>
+        <h5 class="footer_header">© AutoChase. All Rights Reserved</h5>
+    </footer>
+    <script src="https://kit.fontawesome.com/637bf1fd0a.js" crossorigin="anonymous"></script>
+</body>
+</html>
