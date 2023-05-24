@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./contact.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("GdOVDS0xw8ke9w8SH");
+        })();
+    </script>
+    <title>AutoChase</title>
+</head>
+<body>
+    <section>
+        <div class="logo_wrapper">
+            <img class="logo" src="./autochase_logo.png" alt="">
+        </div>
+        <div class="first">
+            <h1>Sell cars online with <span class="autochase">AUTOCHASE</span></h1>
+            <h4>Selling cars online just got a whole lot simpler. <br> Register your interest today to receive an exclusive 3 months free trial on Launch. No obligations!</h4>
+        </div>
+        <section class="form_wrapper">
+            <form onsubmit="contact(event)">
+              <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+              <input onclick="showText()" type="submit" value="Register">
+            </form>
+          </section>
+          <section class="second">
+            <h3 class="second_header">Say goodbye to costly per lead and per car charges. <br> AutoChase offers a simple and affordable solution <br> with a flat monthly fee. Showcase unlimited inventory, <br> connect with buyers, and close deals without breaking <br> the bank. Join us today and experience transparent <br> pricing that helps you focus on sales success.</h3>
+            <img class="element" src="./autochase_online car sale.png" alt="">
+          </section>          
+        <div class="scroll">
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+    </section>
+    <section class="why_us">
+        <h3>Why AutoChase?</h3>
+        <div class="benefits_wrapper">
+            <div class="benefit">
+                <i class="fa-solid fa-star"></i>
+                <h4>Simple Flat Fee</h4>
+                <p class="benefit_para">No more paying per lead we have a <br> simple monthly flat fee</p>
+            </div>
+            <div class="benefit">
+                <i class="fa-solid fa-star"></i>
+                <h4>Unlimited Listings</h4>
+                <p class="benefit_para">List as many cars as you like <br> with our ultimate pro plan.</p>
+            </div>
+            <div class="benefit">
+                <i class="fa-solid fa-star"></i>
+                <h4>Free Tier Package</h4>
+                <p class="benefit_para">List up to 25 cars without any fees <br> completely FREE</p>
+            </div>
+        </div>
+    </section>
+    <section class="pricings">
+        <h2 class="pricing_header">Our Simple Pricing</h2>
+        <div class="pricing_wrapper">
+            <div class="pricing">
+                <h4 class="starter">Starter</h4>
+                <h4>FREE</h4>
+                <p>25 Listings</p>
+                <p>30 Days Expiry</p>
+                <p>-</p>
+            </div>
+            <div class="pricing">
+                <h4 class="business">Business</h4>
+                <h4>$99</h4>
+                <p>50 Listings</p>
+                <p>30 Days Expiry</p>
+                <p>$1.98 / Listing</p>
+            </div>
+            <div class="pricing">
+                <h4 class="premium">Premium</h4>
+                <h4>$149</h4>
+                <p>100 Listings</p>
+                <p>30 Days Expiry</p>
+                <p>$1.49 / Listing</p>
+            </div>
+        </div>
+        <div class="second_pricing_wrapper">
+            <div class="pricing">
+                <h4 class="premium_plus">Premium+</h4>
+                <h4>$199</h4>
+                <p>200 Listings</p>
+                <p>60 Days Expiry</p>
+                <p>$0.99 / Listing</p>
+            </div>
+            <div class="pricing">
+                <h4 class="ultimate">Ultimate</h4>
+                <h4>$249</h4>
+                <p>300 Listings</p>
+                <p>60 Days Expiry</p>
+                <p>$0.83 / Listing</p>
+            </div>
+            <div class="pricing">
+                <h4 class="ultimate_pro">Ultimate Pro</h4>
+                <h4>$399</h4>
+                <p>Unlimited Listings</p>
+                <p>No Expiry</p>
+                <p>Featured Listings</p>
+            </div>
+        </div>
+    </section>
+    <section class="register_in">
+        <h4 class="reg_in_header">Register Your Interest Today</h4>
+        <button class="sign_up_btn"><a class="btn_anchor" href="#">Sign me up!</a></button>
+    </section>
+
+    <footer>
+        <hr>
+        <h5 class="footer_header">© AutoChase. All Rights Reserved</h5>
+    </footer>
+    <script src="https://kit.fontawesome.com/637bf1fd0a.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>

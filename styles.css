@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.first h1{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+
+.second_header{
+
+    text-align: left;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: auto;
+
+}
+
+.first h4{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+body{
+    height: 100%;
+    background: #5cbfc5;
+}
+
+.autochase{
+    font-weight: 700;
+    font-family: 'Paytone One', sans-serif;
+    letter-spacing:0.5mm;
+}
+
+.element{
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scroll{
+  text-align: center;
+  position: relative;
+  height: 200px; /* Adjust this value based on your needs */
+  overflow: hidden;
+}
+
+.fa-caret-down{
+  font-size: 70px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: moveDownwards 2s linear infinite; /* Adjust the animation duration as needed */
+}
+
+
+@keyframes moveDownwards {
+  0% {
+    top: 0; /* Starting position at the top of the container */
+  }
+  50% {
+    top: 10%; /* Midway position, moved down by 20% of container's height */
+  }
+  100% {
+    top: 0; /* Ending position, back to the top of the container */
+  }
+}
+
+.logo{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+  }
+
+
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 0px;
+  }
+
+  input[type="submit"] {
+    background-color: #8985FF;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+
+  .second{
+    display: flex;
+  }
+
+
+
+  .why_us h3{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+
+  }
+
+  .benefit_star{
+    width:100px;
+  }
+
+  i{
+    color: #8985FF;
+    font-size: 100px;
+    margin-bottom: 30px;
+  }
+
+.benefits_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.benefit{
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+    padding-top: 0px;
+}
+
+.benefit_para{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.benefit h4{
+  font-size: 25px;
+  color: white;
+}
+
+.pricing_header{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.pricing{
+    margin-top: 50px;
+    text-align: center;
+    padding: 50px;
+    padding-top: 0px;
+}
+
+.pricing_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pricing h4{
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.pricing li{
+  color: white;
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+.second_pricing_wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pricing{
+  background-color: white;
+  margin: 10px;
+  width: 240px;
+  height: 250px;
+  border-radius: 20px;
+  transition: all 400ms ease;
+}
+
+.pricing:hover{
+  transform: scale(1.05);
+  transition: all 400ms ease;
+}
+
+.starter{
+  color: rgb(76, 137, 234);
+}
+
+.business{
+  color: rgb(14, 166, 14);
+}
+
+.premium{
+  color: rgb(178, 174, 174);
+}
+
+.premium_plus{
+  color: rgb(247, 171, 30);
+}
+
+.ultimate{
+  color: rgb(243, 54, 54);
+}
+
+.ultimate_pro{
+  color: #8985FF;
+}
+
+.register_in{
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.reg_in_header{
+  color: white;
+  font-size: 30px;
+}
+
+.sign_up_btn{
+  padding: 10px;
+  border-radius: 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  margin-left: 20px;
+  transition: all 400ms ease;
+}
+
+.sign_up_btn:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.btn_anchor{
+  text-decoration: none;
+  color: white;
+}
+
+.footer_header{
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+hr{
+  color: white;
+  border: none;
+  border-top: 1px solid white;
+
+}
+
+
+
+@media (max-width: 991px) {
+  /* Styles for screens smaller than or equal to 991px (including larger smartphones) */
+  .logo{
+    width: 300px;
+  }
+
+  .first{
+    margin: 10px;
+  }
+
+  .second_header{
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  .second{
+    display: block;
+  }
+
+  .benefits_wrapper{
+    display: block;
+  }
+
+  .register_in{
+    display: block;
+    text-align: center;
+  }
+
+  .sign_up_btn{
+    margin-top: 10px;
+  }
+
+
+}
